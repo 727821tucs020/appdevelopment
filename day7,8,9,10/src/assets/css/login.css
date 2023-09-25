@@ -1,0 +1,147 @@
+
+
+body, h1, h2, p, ul, li 
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color:white;
+
+}
+
+
+
+
+
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px grey;
+  padding: 2rem;
+  width: 300px;
+  margin: 2rem auto;
+  margin-top: 6.9rem;
+  
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:green;
+}
+
+
+
+.login-container p {
+  margin-top: 15px;
+}
+.vvd
+{
+  font-style: italic;
+}
+.register-here
+{
+color:blue;
+cursor: pointer;
+}
+.dream 
+{
+  color: white;
+  margin-left: 10px;
+}
+.ajk
+{
+  background-image: url("../images//BG\ \(3\).jpg");
+  background-size: 1280px 720px;
+  height: 100vh;
+ 
+  background-repeat: no-repeat; /* This property prevents the image from repeating */
+
+
+  
+}
+/* Navbar.css */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f7b731;
+}
+

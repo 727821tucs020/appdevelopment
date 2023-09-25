@@ -1,0 +1,64 @@
+/* FAQ.css */
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-list {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  /* Navbar.css */
+.navbar {
+  background-color: #333; /* Change the background color to your desired color */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #f7b731; /* Change the hover color to your desired color */
+}

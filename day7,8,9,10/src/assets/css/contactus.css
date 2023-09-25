@@ -1,0 +1,194 @@
+/* contact.css */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content {
+    margin-top: 20px;
+  }
+  
+  .contact-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info,
+  .contact-form {
+    flex: 1;
+  }
+  
+  .contact-info-title,
+  .contact-form-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  /* contact-navbar.css */
+.contact-navbar {
+  background-color: #333; /* Change the background color to your desired color */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-navbar-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.contact-navbar-links li {
+  margin-right: 20px;
+}
+
+.contact-navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.contact-navbar-links a:hover {
+  color: #f7b731; /* Change the hover color to your desired color */
+}
+
+/* contactus.css */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.contact-content {
+  margin-top: 20px;
+}
+
+.contact-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.contact-info-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-form {
+  flex: 2;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.contact-form-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #f7b731; /* Change the hover color to your desired color */
+}
+
